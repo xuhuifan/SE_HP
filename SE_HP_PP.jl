@@ -7,7 +7,7 @@ using Plots
 
 # Random.seed!(3)
 include("utilities_v7.jl")
-include("generative_process.jl")
+# include("generative_process.jl")
 
 Simulation_Flag = false
 data_i = 4
@@ -25,7 +25,7 @@ if Simulation_Flag
         unique_receive_connect, CC_seq, pis_seq = Formal_generative_process(dataNum, T, alpha_origin, tau_origin, KK, M )
     # @load "simulation.jld2"
 else
-    pathss = "../Hawkes_DirPPs/"
+    pathss = "data/"
     filess = glob("*.txt", pathss)
 
     println(filess)
