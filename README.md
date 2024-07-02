@@ -1,6 +1,6 @@
 # SE_HP
 
-Implementation Code for "Hawkes Process with Stochastic Exogenous Effects for Continuous-Time Interaction Modelling". 
+Implementation Code for **Hawkes Process with Stochastic Exogenous Effects for Continuous-Time Interaction Modelling**. 
 
 SE_HP_PP.jl is the main code for Hawkes Process with Poisson Process distributed changepoints (Full SE-HP)
 
